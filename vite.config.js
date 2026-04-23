@@ -3,5 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/star-wars-explorer/'
+  // PAS de base - gardez-le simple
+  server: {
+    port: 5173
+  }
 })
